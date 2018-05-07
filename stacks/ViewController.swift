@@ -218,6 +218,12 @@ class ViewController: UIViewController {
             reset.isHidden = false
         }
         
+        else if button1.isEnabled == false && button2.isEnabled == false  && button3.isEnabled == false && button4.isEnabled == false && button5.isEnabled == false && button6.isEnabled == false && button7.isEnabled
+            == false && button8.isEnabled == false && button9.isEnabled == false
+        {
+            winnerlabel.text = "DRAW!"
+        }
+        
         //        if button1.isSelected && button2.isSelected && button3.isSelected {
         //            winnerlabel.text = "WINNER"
         //        }
